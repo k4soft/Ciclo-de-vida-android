@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
-        Toast.makeText(this, "onResume", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "onResume activity 1", Toast.LENGTH_LONG).show();
         Log.d("->","onResume()");
     }
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onStop() {
         super.onStop();
-        Toast.makeText(this, "onStop", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "onStop activity 1", Toast.LENGTH_LONG).show();
         Log.d("->","onStop()");
     }
 
